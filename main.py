@@ -28,7 +28,7 @@ def get_latest_news():
     )
     response = requests.get(url)
     data = response.json()
-    print('data',data)  # Debugging line to check the API response
+    #print('data',data)  # Debugging line to check the API response
     if data.get("status") == "success" and data.get("results"):
         messages = []
         for article in data["results"][:3]:
@@ -49,5 +49,6 @@ def send_whatsapp_message(message):
 
 while True:
     news = get_latest_news()
+    print('Sending news:', news)  # Debugging line to check the message being sent
     send_whatsapp_message(news)
     time.sleep(3600)  # Every hour
