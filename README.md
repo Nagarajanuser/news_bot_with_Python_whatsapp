@@ -20,7 +20,7 @@ Unlike traditional news aggregators that flood users with verbose articles, this
 
 ---
 
-## 💡 Key Engineering Highlights (Recruiter & Technical View)
+## 💡 Key Engineering Highlights
 
 * **🤖 Privacy-First Local AI Summarization:** Integrated **Ollama** (Llama 3 / Mistral) via local REST endpoints, ensuring zero per-token cost, high throughput, and strict data privacy.
 * **🌐 Automated REST API Ingestion:** Dynamic payload extraction and filtering from **NewsData.io**, handling multi-category, query-filtered, and localized global news feeds.
@@ -251,10 +251,3 @@ python main.py
 
 ---
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for details.
-
----
-
-*Authored with passion for AI Automation & Systems Integration.*
