@@ -242,7 +242,7 @@ python main.py
 
 ---
 
-## 🌟 Why This Project Stands Out (For HR & Technical Evaluators)
+## 🌟 Why This Project Stands Out
 
 1. **Practical AI Application:** Demonstrates practical usage of **Generative AI / SLMs** in production automation rather than wrapper-only applications.
 2. **Cost-Optimized Architecture:** Avoids expensive cloud LLM API costs by leveraging local inference through Ollama.
